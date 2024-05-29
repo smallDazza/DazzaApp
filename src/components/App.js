@@ -18,7 +18,7 @@ import {Platform, StyleSheet, Text, Image, View} from 'react-native';
        <SafeAreaProvider>
         <Provider store={store}>
          <Appbar.Header style={{backgroundColor: '#c64c38'}}>
-           <Appbar.Content color={'#ffffff'} style={{backgroundColor: '#c64c38'}} title="ROI Staff Directory App" subtitle={'Developed using React Native'} />
+           <Appbar.Content color={'#ffffff'} style={{backgroundColor: '#c64c38'}} title="ROI Staff Directory Application" subtitle={'Developed using React Native'} />
          </Appbar.Header>
          <Navigation />
         </Provider>
