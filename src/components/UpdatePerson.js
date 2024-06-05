@@ -97,9 +97,9 @@ class UpdatePerson extends Component {
                     />                    
                     <TextInput
                         style={styles.inputField}
-                        label="Company"
+                        label="Department"
                         value={this.state.company}
-                        onChangeText={value => this.formUpdate({ prop: 'company', value})}
+                        onChangeText={value => this.formUpdate({ prop: 'department', value})}
                     />                    
                     <TextInput
                         style={styles.inputField}

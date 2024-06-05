@@ -14,7 +14,7 @@ function MyTabs() {
       <Tab.Screen name="Welcome" component={LandingPage} />
       <Tab.Screen name="People List" component={PeopleList} />
       <Tab.Screen name="Add Person" component={AddPerson}/>
-      <Tab.Screen name="Company List" component={CompanyList} />
+      <Tab.Screen name="Department List" component={CompanyList} />
     </Tab.Navigator>
     
   );
